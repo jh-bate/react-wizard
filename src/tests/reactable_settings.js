@@ -14,6 +14,6 @@ describe('ReactableSettings', () => {
       { start: '10:00 pm', rate: 0.650, target: 120, carbRatio: 12, insulinSensitivity: 60 },
     ];
     const wrapper = shallow(<ReactableSettings data={testData} />);
-    expect(wrapper.props().dataSource).to.be.equal(testData);
+    expect(wrapper.props().data).to.be.equal(testData);
   });
 });

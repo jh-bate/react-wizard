@@ -3,7 +3,7 @@ import { Table } from 'reactable';
 
 const ReactableSettings = ({ columns, data }) => (
   <Table
-    dataSource={data}
+    data={data}
     columns={columns}
     className="table"
   />
